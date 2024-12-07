@@ -1,11 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import './styles.css';
 
-ReactDOM.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>,
-    document.getElementById('root')
-);
+const Main = () => {
+    return (
+        <div>
+            <h1>Home</h1>
+            <p>Welcome to the page HOME, where learning begins!</p>
+        </div>
+    );
+};
+
+export default Main;
