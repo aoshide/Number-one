@@ -16,7 +16,13 @@ footer {
   min-width: 250px;
 }
 
-footer h3, footer h4 {
+.useful_part {
+  display: flex;
+  flex-direction: column;
+}
+
+footer h3,
+footer h4 {
   font-size: 18px;
   font-weight: bold;
 }
@@ -53,6 +59,10 @@ footer button {
   color: white;
   border: none;
   border-radius: 4px;
+}
+
+.email_button {
+  margin-left: 5px;
 }
 
 footer button:hover {

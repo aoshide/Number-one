@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Main from './components/Main';
-import About from './components/About';
-import Call from './components/Call';
-import Azbuka from './components/Azbuka';
-import Privacy from './components/Privacy';
+import Header from './components/Header/Header';
+import Footer from './components/foot/Footer';
+import Main from './components/main/Main';
+import About from './components/about/About';
+import Call from './components/call/Call';
+import Azbuka from './components/azbuka/Azbuka';
+import Privacy from './components/privacy/Privacy';
 import reportWebVitals from './reportWebVitals';
 
 const App = () => {

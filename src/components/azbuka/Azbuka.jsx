@@ -1,4 +1,5 @@
 import React from 'react';
+import "./azbuka.css";
 
 const Azbuka = () => {
     return (
