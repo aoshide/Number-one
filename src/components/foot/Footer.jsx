@@ -21,17 +21,6 @@ const Footer = () => {
         </div>
 
         <div className="footer-section">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="./Main">Home</a></li>
-            <li><a href="./About">About </a></li>
-            <li><a href="./Call">Call</a></li>
-            <li><a href="./Azbuka">Study</a></li>
-            <li><a href="./Privacy">Privacy policy</a></li>
-          </ul>
-        </div>
-
-        <div className="footer-section">
           <h4>Our Newsletter</h4>
           <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
           <form>
