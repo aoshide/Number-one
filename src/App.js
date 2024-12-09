@@ -23,7 +23,6 @@ const App = () => {
     <Route path="/azbuka" element={<Azbuka />} />
     <Route path="/privacy" element={<Privacy />} />
 </Routes>
-
                 </main>
                 <Footer />
                 
