@@ -1,8 +1,14 @@
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
 .azbuka-container {
     text-align: center;
-    background-color:  #C6E7FF;
+    background-color:  #D4EBF8;
     padding: 20px;
     border-radius: 8px;
+    font-family: 'Outfit', sans-serif;
+
   }
   
   h1 {
