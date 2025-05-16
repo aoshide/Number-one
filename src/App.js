@@ -7,25 +7,25 @@ import About from './components/about/About';
 import Call from './components/call/Call';
 import Azbuka from './components/azbuka/Azbuka';
 import Privacy from './components/privacy/Privacy';
-import reportWebVitals from './reportWebVitals';
+import Registr from './components/registr/Registr';
 
 const App = () => {
     return (
         <Router>
             <div>
-                <Header/>
+                <Header />
                 <main>
-                <Routes>
-                    <Route path="/" element={<Main />} />
-                    <Route path="/Main" element={<Main />} />
-                    <Route path="/About" element={<About />} />
-                    <Route path="/call" element={<Call />} />
-                    <Route path="/azbuka" element={<Azbuka />} />
-                    <Route path="/privacy" element={<Privacy />} />
-                </Routes>
+                    <Routes>
+                        <Route path="/" element={<Main />} />
+                        <Route path="/Main" element={<Main />} />
+                        <Route path="/About" element={<About />} />
+                        <Route path="/call" element={<Call />} />
+                        <Route path="/azbuka" element={<Azbuka />} />
+                        <Route path="/privacy" element={<Privacy />} />
+                        <Route path="/Registr" element={<Registr />} />
+                    </Routes>
                 </main>
                 <Footer />
-                
             </div>
         </Router>
     );

@@ -1,5 +1,13 @@
 body {
   font-family: 'Outfit', sans-serif;
+  width: 100%;
+}
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30%;
 }
 
 .button-container {
@@ -54,7 +62,7 @@ body {
 .history {
   display: flex;
   flex-direction: column; /* Stack messages vertically */
-  justify-content: flex-start; /* Align messages at the top */
+  justify-content:center; /* Align messages at the top */
   align-items: center;
   width: 100%;
   padding: 20px;
@@ -76,8 +84,6 @@ body {
   color: #333; /* Dark text color for readability */
 }
 
-/* Heading Style */
-/* Heading Style */
 .heading {
   display: flex;
   justify-content: center;
@@ -195,7 +201,7 @@ body {
   }
 
   .video-call-button {
-    width: 90%; /* Make the button slightly wider on mobile */
+    width: 100%; /* Make the button slightly wider on mobile */
   }
 
   .contact-info ul {
