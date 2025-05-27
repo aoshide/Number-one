@@ -15,9 +15,6 @@ const Header = () => {
         <a href="./About">About</a>
         <a href="./Call">Call</a>
         <a href="./Azbuka">Study</a>
-        <a href="./Registr" className="register-btn">
-          Registration
-        </a>
       </nav>
 
     </header>

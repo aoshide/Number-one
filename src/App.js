@@ -7,7 +7,6 @@ import About from './components/about/About';
 import Call from './components/call/Call';
 import Azbuka from './components/azbuka/Azbuka';
 import Privacy from './components/privacy/Privacy';
-import Registr from './components/registr/Registr';
 
 const App = () => {
     return (
@@ -22,7 +21,6 @@ const App = () => {
                         <Route path="/call" element={<Call />} />
                         <Route path="/azbuka" element={<Azbuka />} />
                         <Route path="/privacy" element={<Privacy />} />
-                        <Route path="/Registr" element={<Registr />} />
                     </Routes>
                 </main>
                 <Footer />
