@@ -1,7 +1,67 @@
 import React from "react";
 import "./azbuka.css";
 
-// Алфавит с жестами для букв и слов
+
+// const LearningPage = () => {
+//   return (
+//     <div>
+//       <div style={styles.learningPage}>
+//         <header style={styles.learningHeader}>
+//           <h1 style={styles.h1}>Изучай жестовый язык</h1>
+//           <p>Добро пожаловать! Здесь ты можешь учиться жестовому языку легко и с удовольствием.</p>
+//         </header>
+
+//         <section>
+//           <h2 style={styles.sectionTitle}>Обучающие видео</h2>
+//           <div style={styles.videosGrid}>
+//             {videos.map((video, i) => (
+//               <div key={i} style={styles.videoCard}>
+//                 <iframe
+//                   src={video.url}
+//                   title={video.title}
+//                   style={styles.iframe}
+//                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+//                   allowFullScreen
+//                 />
+//                 <h3 style={styles.videoTitle}>{video.title}</h3>
+//               </div>
+//             ))}
+//           </div>
+//         </section>
+        
+
+//         <section>
+//           <h2 style={styles.sectionTitle}>Алфавит жестами</h2>
+//           <div className="alphabet-grid">
+//             {alphabet.map((item, index) => (
+//               <div className="alphabet-card" key={index}>
+//                 <div className="card-face front">
+//                   <img src={item.frontImage} alt={item.frontDescription} />
+//                   <p>{item.frontDescription}</p>
+//                 </div>
+//                 <div className="card-face back">
+//                   <img src={item.backImage} alt={item.backDescription} />
+//                   <p>{item.backDescription}</p>
+//                 </div>
+//               </div>
+//             ))}
+//           </div>
+//         </section>
+//       </div>
+
+//       <footer style={styles.footer}>© 2025 MANP — Все права защищены</footer>
+//     </div>
+//   );
+// };
+
+const videos = [
+  { title: "Алфавит жестами", url: "https://www.youtube.com/embed/jtbwEalS0CE?si=7JRvYGiYgrPUlq-L" },
+  { title: "Простые фразы", url: "https://www.youtube.com/embed/fotbHsZdw4Y?si=2Ut02sPQ0GMmdA2W" },
+  { title: "Повседневное общение", url: "https://www.youtube.com/embed/jgNex8M_tKI?si=DO9erAt3SrhSnlWI" },
+  { title: "Алфавит", url: "https://www.youtube.com/embed/jtbwEalS0CE?si=W4XaXYFREl8a8YIJ" },
+  { title: "Жесты для общения", url: "https://www.youtube.com/embed/l4VmBNIVpfE?si=nOMwKM74YGTUyJuw" }
+];
+
 const alphabet = [
   { letter: "A", frontImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHykc0bx14IH-RaI49CSfjO8PK-gZfWbGdww&s", frontDescription: "Жест для буквы А", backImage: "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_auto/BabySignLanguage/DictionaryPages/hello.svg", backDescription: "Жест для слова 'Привет'" },
   { letter: "B", frontImage: "https://www.clipartbest.com/cliparts/biy/prA/biyprAA9T.png", frontDescription: "Жест для буквы Б", backImage: "https://preview.redd.it/im-working-on-a-constructed-sign-language-my-first-one-and-v0-e3slo611ilfa1.jpg?width=640&crop=smart&auto=webp&s=3bf74b93e51dee4fc08fb66225897a4745aaa7b3", backDescription: "Жест для слова 'Спасибо'" },
@@ -36,6 +96,23 @@ const alphabet = [
 const Azbuka = () => {
   return (
     <div className="azbuka-container">
+       <section>
+          <h2 style={styles.sectionTitle}>Алфавит жестами</h2>
+          <div className="alphabet-grid">
+            {alphabet.map((item, index) => (
+              <div className="alphabet-card" key={index}>
+                <div className="card-face front">
+                  <img src={item.frontImage} alt={item.frontDescription} />
+                  <p>{item.frontDescription}</p>
+                </div>
+                <div className="card-face back">
+                  <img src={item.backImage} alt={item.backDescription} />
+                  <p>{item.backDescription}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
       <h1>Изучаем Алфавит Жестов</h1>
       <h4>наведи на картинку что бы изучить слова</h4>
       <img className="ser" src="https://cdn-icons-png.flaticon.com/512/6385/6385287.png" alt="" />
